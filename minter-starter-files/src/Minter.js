@@ -30,32 +30,32 @@ const Minter = (props) => {
           "..." +
           String(walletAddress).substring(38)
         ) : (
-          <span>Connect Wallet</span>
+          <span>METAMASK</span>
         )}
       </button>
 
       <br></br>
-      <h1 id="title">🧙‍♂️ Alchemy NFT Minter</h1>
+      <h1 id="title">Antidote World Mint</h1>
       <p>
-        Simply add your asset's link, name, and description, then press "Mint."
+        a web3 project
       </p>
       <form>
-        <h2>🖼 Link to asset: </h2>
+        <h2>Asset Location: </h2>
         <input
           type="text"
           placeholder="e.g. https://gateway.pinata.cloud/ipfs/<hash>"
           onChange={(event) => setURL(event.target.value)}
         />
-        <h2>🤔 Name: </h2>
+        <h2> Name: </h2>
         <input
           type="text"
-          placeholder="e.g. My first NFT!"
+          placeholder="What's it called"
           onChange={(event) => setName(event.target.value)}
         />
-        <h2>✍️ Description: </h2>
+        <h2> Description: </h2>
         <input
           type="text"
-          placeholder="e.g. Even cooler than cryptokitties ;)"
+          placeholder="Why is it unique"
           onChange={(event) => setDescription(event.target.value)}
         />
       </form>

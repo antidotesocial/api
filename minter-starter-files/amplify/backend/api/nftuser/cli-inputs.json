@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "paths": {
+    "/profile": {
+      "name": "/profile",
+      "lambdaFunction": "nftsite2d00f65e",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create"
+        ]
+      }
+    }
+  }
+}

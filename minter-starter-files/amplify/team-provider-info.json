@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nftsite-dev-43937-authRole",
+      "UnauthRoleArn": "arn:aws:iam::940821620898:role/amplify-nftsite-dev-43937-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::940821620898:role/amplify-nftsite-dev-43937-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-nftsite-dev-43937-deployment",
+      "UnauthRoleName": "amplify-nftsite-dev-43937-unauthRole",
+      "StackName": "amplify-nftsite-dev-43937",
+      "StackId": "arn:aws:cloudformation:us-east-1:940821620898:stack/amplify-nftsite-dev-43937/66595a60-3967-11ed-ba73-1285303b9b69",
+      "AmplifyAppId": "d23qzg6kisdplt",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-nftsite-dev-43937-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "undefined": {}
+      },
+      "function": {
+        "nftsite2d00f65e": {
+          "deploymentBucketName": "amplify-nftsite-dev-43937-deployment",
+          "s3Key": "amplify-builds/nftsite2d00f65e-3334416a6e7537335669-build.zip"
+        }
+      }
+    }
+  }
+}
